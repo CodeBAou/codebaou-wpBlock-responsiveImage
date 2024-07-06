@@ -1,0 +1,27 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ .wp-block-codebaou-wp-codebaou-wp-responsiveimage{
+	
+	display:flex;
+	overflow: hidden;
+	align-content: center;
+ }
+
+.wp-block-codebaou-wp-codebaou-wp-responsiveimage > img {
+	position:relative;
+	width: 100%;
+}
+
+.wp-block-codebaou-wp-codebaou-wp-responsiveimage-button {
+	position:relative;
+	width:100%;
+	height:100%;
+	background-color: rgb(20, 20, 20);
+	color:white;
+	font-weight: 800;
+	border:6px solid white;
+}

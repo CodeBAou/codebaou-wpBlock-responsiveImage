@@ -1,0 +1,58 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "codebaou-wp/codebaou-wp-responsiveimage",
+	"version": "0.1.0",
+	"title": "Responsive Image Codebaou",
+	"category": "media",
+	"description": "Un bloque para cargar el tamaño de imagen correcto segun user-agent",
+	"example": {},
+	"supports": {
+		"html": false,
+		"align": [ "left","right","full" ],
+		"dimensions": {
+			"aspectRatio": true,		
+			"minHeight": true 
+		}
+	},
+	"attributes": {
+		"mediaID":{
+			"type":"number"
+		},
+		"mediaALT":{
+			"type":"string",
+			"default":""
+		},
+		"srcfull":{
+			"type":"string",
+			"default":""
+		},
+		"srclarge":{
+			"type":"string",
+			"default":""
+		},
+		"srcmedium":{
+			"type":"string",
+			"default":""
+		},
+		"srcthumbnail":{
+			"type":"string",
+			"default":""
+		},
+		"widthfull":{
+			"type":"number"
+		},
+		"widthlarge":{
+			"type":"number"
+		},
+		"widththumbnail":{
+			"type":"number"
+		}
+	},
+	"textdomain": "codebaou-wp-responsiveimage",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js"
+}
