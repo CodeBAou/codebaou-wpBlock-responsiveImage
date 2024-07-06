@@ -9,6 +9,6 @@ tamaño correcto dependiendo del ancho de pantalla del dispositivo.
  (min-width: 1025px)  - full
  ``
 
- ![Imagen se muestra como se cargan todos los tamaños de imagen a medida que se reduce el ancho de la página]([https://www.pinterest.es/6f89197e-4334-420b-9bf6-7066d7ed9e76](https://i.pinimg.com/736x/31/c3/46/31c3463cbfe9743ee75184871d3537e1.jpg))
+![Imagen se muestra como se cargan todos los tamaños de imagen a medida que se reduce el ancho de la página](https://i.pinimg.com/736x/31/c3/46/31c3463cbfe9743ee75184871d3537e1.jpg)(https://i.pinimg.com/736x/31/c3/46/31c3463cbfe9743ee75184871d3537e1.jpg))
 
 Por alguna razón me fallaba srcset y sizes, no siempre el navegador elegía el tamaño correcto por esa razón decidi crear este bloque simple.
