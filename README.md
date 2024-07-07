@@ -14,12 +14,15 @@ Por alguna razón me fallaba srcset y sizes, no siempre el navegador elegía el 
 
 ## Instalación 
 
-1. Pegar la carpeta en /wp-content/plugins/codebaou-wpBlock-responsiveImage
-2. Compilar
+1. Clonar en la carpeta /wp-content/plugins/
+2. Dentro del directorio codebaou-wpBlock-responsiveImage/ desde la terminal ejecuta...
    	```
+    export NODE_ENV=development
+    npm install
     npm run build
+    
     ```   
-4. Activar Plugin
+4. Activar Plugin en wordpress
     !["imagen activar plugin"](https://i.pinimg.com/originals/bd/5e/15/bd5e15468e27f8a67b24a73a11c054ea.png)
    
 7. Seleccionar bloque desde el editor de gutenberg
